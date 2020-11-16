@@ -83,8 +83,8 @@
 <script>
 // import axios from 'axios'
 // import { BaseOrde } from './js/api.js'
-import BaseOrde from "test-module/js/api2"
-import Basesheng from 'test-module/js/api'
+import { BaseOrde } from 'test-module/js/api2'
+import { Basesheng } from 'test-module/js/api'
   export default {
     data() {
       return {
