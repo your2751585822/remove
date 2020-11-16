@@ -83,8 +83,8 @@
 <script>
 // import axios from 'axios'
 // import { BaseOrde } from './js/api.js'
-import { BaseOrde } from '../../packages/module/js/api2'
-import { Basesheng } from '../../packages/module/js/api'
+// import BaseOrde from 'test-module/js/api2'
+// import Basesheng from 'test-module/js/api'
   export default {
     data() {
       return {
@@ -118,8 +118,8 @@ import { Basesheng } from '../../packages/module/js/api'
       }
     },  
     async created(){
-      this.daskList = await BaseOrde.getData()
-      this.taskList = await Basesheng.getData()
+      // this.daskList = await BaseOrde.getData()
+      // this.taskList = await Basesheng.getData()
       // console.log(this.taskList)
       // jdsfdjlkfj
     }
